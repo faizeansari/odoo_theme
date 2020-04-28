@@ -1,0 +1,143 @@
+body {
+  background: radial-gradient(1%, transparent 8%) 0 0, radial-gradient(#dddddd 1%, transparent 8%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 10%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 10%) 8px 9px;
+  background-color: rgba(248, 254, 254, 0.6);
+  background-size: 16px 16px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-bottom: 0;
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.top-nav {
+  justify-content: flex-end;
+  text-align: right;
+}
+.top-nav .nav-link {
+  padding: 0.5rem 0rem 0.5rem 1rem;
+  text-decoration: underline;
+  color: #2e3673;
+}
+
+.bg-header {
+  background-color: #2e3673 !important;
+}
+.bg-header .navbar-nav > .nav-item > .nav-link {
+  color: #ffffff !important;
+}
+.bg-header .dropdown.show {
+  position: static;
+}
+.bg-header .dropdown.show .dropdown-menu {
+  display: table;
+  border-radius: 0px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu li {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.dropdown-menu li a {
+  color: #2e3673 !important;
+}
+
+.slider h3 {
+  color: #2e3673;
+  font-size: 42px;
+}
+.slider .item img {
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.slider .owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block !important;
+  border: 0px solid black;
+  left: -25px;
+}
+.slider .owl-prev i {
+  transform: scale(3);
+  color: #ccc;
+}
+.slider .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block !important;
+  border: 0px solid black;
+  right: -25px;
+}
+.slider .owl-next i {
+  transform: scale(3);
+  color: #ccc;
+}
+.slider .owl-nav [class*=owl-]:hover {
+  background: transparent;
+}
+
+.btn-order {
+  background-color: #2e3673;
+  color: #ffffff;
+  border-radius: 0;
+}
+.btn-order:hover {
+  background-color: #2e3673;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.btn-more {
+  color: #2e3673;
+  border: 1px solid #2e3673;
+  border-radius: 0;
+  margin-left: 5px;
+}
+.btn-more:hover {
+  background-color: #2e3673;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu > li {
+    display: block;
+  }
+  .dropdown-menu li {
+    display: block;
+  }
+
+  .bg-header .dropdown.show {
+    border-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

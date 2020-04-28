@@ -2,7 +2,19 @@
 <odoo>
     <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
         <xpath expr="link[last()]" position="after">
-            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/scss/style.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/animate.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/bootstrap.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/font-awesome.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/owl-carousel.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/owl-theme-default.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/style.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/theme.scss"/>
+        </xpath>
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/theme_tutorial/static/js/bootstrap.js"></script>
+            <script type="text/javascript" src="/theme_tutorial/static/js/owl-carousel.js"></script>
+            <script type="text/javascript" src="/theme_tutorial/static/js/popper.js"></script>
+            <script type="text/javascript" src="/theme_tutorial/static/js/slim.js"></script>
         </xpath>
     </template>
 </odoo>

@@ -7,6 +7,56 @@
       <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
         <attribute name="id">testing_attr_name</attribute>
       </xpath>
+        <xpath expr="//div[@id='wrapwrap']" position="inside">
+            <nav class="navbar navbar-expand-md navbar-light bg-light bg-header">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Featured</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Juices</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Groceries
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <ul class="container">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Best Seller</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Stock Cleaner</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Vegitables
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <ul class="container">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Tomatos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Potatos</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </xpath>
 
       <!-- Add an element after the top menu  -->
       <xpath expr="//div[@id='wrapwrap']/header/nav" position="after">
