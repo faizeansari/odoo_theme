@@ -2,7 +2,7 @@ $body_color:#dddddd;
 $primary_color:#2e3673;
 body {
 	background: radial-gradient( 1%, transparent 8%) 0 0, radial-gradient($body_color 1%, transparent 8%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 10%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 10%) 8px 9px;
-	background-color: rgb(248, 254, 254,0.6);
+	background-color: rgba(248, 254, 254,0.6);
 	background-size: 16px 16px;
 }
 h1 {

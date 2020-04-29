@@ -3,7 +3,7 @@
     <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
         <xpath expr="link[last()]" position="after">
             <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/animate.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/bootstrap.scss"/>
+<!--            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/bootstrap.scss"/>-->
             <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/font-awesome.scss"/>
             <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/owl-carousel.scss"/>
             <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/css/owl-theme-default.scss"/>
